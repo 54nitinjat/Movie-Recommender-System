@@ -10,6 +10,7 @@ def recommend(movie):
     return recommended_movie_names
 
 st.header('Movie Recommender System')
+st.header('By Nitin Kumar')
 movies = pickle.load(open('movie_list.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
