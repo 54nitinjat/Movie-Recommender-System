@@ -9,3 +9,15 @@ A content-based movie recommender system built with Python and Streamlit. It sug
 3.movie_list.pkl: Contains the list of all movies with their details
 4.similarity.pkl: Contains the precomputed similarity scores
 
+
+# Steps to Run
+Movie-Recommender-System/
+├── app.py
+├── Movie_recommendation_system.ipynb   
+├── model/
+│   ├── movie_list.pkl                  
+│   └── similarity.pkl                  
+├── tmdb_5000_movies.csv                
+├── tmdb_5000_credits.csv               
+├── requirements.txt
+└── README.md
